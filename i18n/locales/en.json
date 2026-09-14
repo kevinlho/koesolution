@@ -1,0 +1,148 @@
+{
+  "header": {
+    "logoPrefix": "KOE",
+    "logoSuffix": "SOLUTIONS",
+    "cta": "Get Started",
+    "nav": {
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "about": "About",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "badge": "Digital Innovation Partner",
+    "titleLine1": "We Build",
+    "titleHighlight": "Digital Products",
+    "titleLine2": "That Drive Growth",
+    "description": "Supercharge your business growth with expert IT solutions, built by developers with 8+ years of industry experience.",
+    "ctaPrimary": "Free Consultation",
+    "ctaSecondary": "View Portfolio",
+    "imageAlt": "Dashboard"
+  },
+  "services": {
+    "heading": "Services We Provide",
+    "subheading": "End-to-end digital solutions from strategy to launch.",
+    "web": {
+      "title": "Web Development",
+      "description": "Modern websites and web applications."
+    },
+    "mobile": {
+      "title": "Mobile Apps",
+      "description": "iOS and Android applications."
+    },
+    "uiux": {
+      "title": "UI/UX Design",
+      "description": "User-centered interface design."
+    },
+    "strategy": {
+      "title": "Digital Strategy",
+      "description": "Growth-focused digital solutions."
+    }
+  },
+  "stats": {
+    "projects": "Projects Completed",
+    "clients": "Happy Clients",
+    "experience": "Years Experience",
+    "team": "Team Members"
+  },
+  "portfolio": {
+    "heading": "Featured Projects",
+    "healthcare": {
+      "title": "Healthcare Platform",
+      "description": "Enterprise healthcare management solution."
+    },
+    "fintech": {
+      "title": "Fintech Dashboard",
+      "description": "Financial analytics platform."
+    },
+    "ecommerce": {
+      "title": "E-Commerce Platform",
+      "description": "Scalable online marketplace."
+    }
+  },
+  "why": {
+    "eyebrow": "WHY SEE KOESOLUTIONS",
+    "titleLine1": "Proven digital excellence",
+    "titleConnector": "that drives",
+    "titleHighlight": "results",
+    "description": "Six years of building enterprise-grade products. We combine engineering rigor with sharp design so your brand looks premium and performs even better.",
+    "ctaPrimary": "Start your project",
+    "ctaSecondary": "See case studies",
+    "team": {
+      "title": "Senior, in-house team",
+      "description": "No outsourcing. Every line of code is written by senior engineers who care."
+    },
+    "growth": {
+      "title": "Built for growth",
+      "description": "We engineer for measurable outcomes — leads, conversions, retention."
+    },
+    "onTime": {
+      "title": "On-time, every time",
+      "description": "Transparent sprints, weekly demos, and predictable launch dates."
+    },
+    "partner": {
+      "title": "Post-launch partner",
+      "description": "We don't disappear. Ongoing optimization, support, and iteration included."
+    }
+  },
+  "process": {
+    "heading": "How It Works",
+    "subheading": "We follow a simple and transparent process to deliver your project efficiently from start to finish.",
+    "contact": {
+      "title": "Contact Us",
+      "description": "Tell us about your project."
+    },
+    "planning": {
+      "title": "Planning",
+      "description": "We prepare the design."
+    },
+    "development": {
+      "title": "Development",
+      "description": "We build your application."
+    },
+    "launch": {
+      "title": "Launch",
+      "description": "Your project goes live."
+    }
+  },
+  "testimonials": {
+    "heading": "Client Testimonials",
+    "john": {
+      "name": "John Smith",
+      "company": "Tech Startup",
+      "quote": "Outstanding team with exceptional execution."
+    },
+    "sarah": {
+      "name": "Sarah Lee",
+      "company": "Retail Brand",
+      "quote": "Delivered beyond expectations."
+    },
+    "michael": {
+      "name": "Michael Tan",
+      "company": "Fintech Company",
+      "quote": "Professional, responsive and highly skilled."
+    }
+  },
+  "cta": {
+    "heading": "Ready To Build Something Amazing?",
+    "description": "Let's discuss your next project and create a digital experience your customers will love.",
+    "button": "Schedule Consultation"
+  },
+  "footer": {
+    "tagline": "Premium digital solutions for modern businesses.",
+    "rights": "All rights reserved."
+  },
+  "whatsapp": {
+    "label": "Chat with us",
+    "defaultMessage": "Hello KOEsolutions, I'd like to know more about your services!"
+  },
+  "language": {
+    "en": "English",
+    "id": "Indonesian"
+  },
+  "site": {
+    "title": "KOEsolutions",
+    "description": "Premium digital solutions for modern businesses — web, mobile, and cloud engineering."
+  }
+}

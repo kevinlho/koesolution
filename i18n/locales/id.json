@@ -1,0 +1,148 @@
+{
+  "header": {
+    "logoPrefix": "KOE",
+    "logoSuffix": "SOLUTIONS",
+    "cta": "Mulai Sekarang",
+    "nav": {
+      "services": "Layanan",
+      "portfolio": "Portofolio",
+      "about": "Tentang Kami",
+      "contact": "Kontak"
+    }
+  },
+  "hero": {
+    "badge": "Agensi Digital & Software House",
+    "titleLine1": "Kami Membangun",
+    "titleHighlight": "Produk Digital",
+    "titleLine2": "yang Mendorong Pertumbuhan",
+    "description": "Percepat pertumbuhan bisnis Anda dengan solusi IT profesional, dikembangkan oleh developer berpengalaman lebih dari 8 tahun di industri ini.",
+    "ctaPrimary": "Konsultasi Gratis",
+    "ctaSecondary": "Lihat Portofolio",
+    "imageAlt": "Dasbor aplikasi"
+  },
+  "services": {
+    "heading": "Layanan yang Kami Sediakan",
+    "subheading": "Solusi digital menyeluruh, dari strategi hingga peluncuran.",
+    "web": {
+      "title": "Pengembangan Web",
+      "description": "Website dan aplikasi web modern."
+    },
+    "mobile": {
+      "title": "Aplikasi Mobile",
+      "description": "Aplikasi untuk iOS dan Android."
+    },
+    "uiux": {
+      "title": "Desain UI/UX",
+      "description": "Desain antarmuka yang berpusat pada pengguna."
+    },
+    "strategy": {
+      "title": "Strategi Digital",
+      "description": "Solusi digital yang berfokus pada pertumbuhan bisnis."
+    }
+  },
+  "stats": {
+    "projects": "Proyek Selesai",
+    "clients": "Klien Puas",
+    "experience": "Tahun Pengalaman",
+    "team": "Anggota Tim"
+  },
+  "portfolio": {
+    "heading": "Proyek Unggulan",
+    "healthcare": {
+      "title": "Platform Kesehatan",
+      "description": "Solusi manajemen layanan kesehatan tingkat enterprise."
+    },
+    "fintech": {
+      "title": "Dasbor Fintech",
+      "description": "Platform analitik keuangan."
+    },
+    "ecommerce": {
+      "title": "Platform E-Commerce",
+      "description": "Marketplace online yang siap berkembang skala besar."
+    }
+  },
+  "why": {
+    "eyebrow": "MENGAPA SEE KOESOLUTIONS",
+    "titleLine1": "Keunggulan digital yang terbukti",
+    "titleConnector": "dan menghasilkan",
+    "titleHighlight": "hasil nyata",
+    "description": "Enam tahun membangun produk berkelas enterprise. Kami memadukan kedisiplinan teknis dengan desain yang tajam, sehingga brand Anda tampil premium dan berkinerja lebih baik.",
+    "ctaPrimary": "Mulai proyek Anda",
+    "ctaSecondary": "Lihat studi kasus",
+    "team": {
+      "title": "Tim senior in-house",
+      "description": "Tanpa outsourcing. Setiap baris kode ditulis oleh engineer senior yang peduli pada hasil kerjanya."
+    },
+    "growth": {
+      "title": "Dirancang untuk bertumbuh",
+      "description": "Kami merancang sistem untuk hasil yang terukur — leads, konversi, dan retensi pelanggan."
+    },
+    "onTime": {
+      "title": "Selalu tepat waktu",
+      "description": "Sprint yang transparan, demo mingguan, dan jadwal peluncuran yang dapat diandalkan."
+    },
+    "partner": {
+      "title": "Mitra pasca-peluncuran",
+      "description": "Kami tidak menghilang setelah proyek selesai. Termasuk optimasi, dukungan, dan iterasi berkelanjutan."
+    }
+  },
+  "process": {
+    "heading": "Cara Kerja Kami",
+    "subheading": "Kami menjalankan proses yang sederhana dan transparan untuk menyelesaikan proyek Anda secara efisien dari awal hingga akhir.",
+    "contact": {
+      "title": "Hubungi Kami",
+      "description": "Ceritakan tentang proyek Anda."
+    },
+    "planning": {
+      "title": "Perencanaan",
+      "description": "Kami menyiapkan rancangan desain."
+    },
+    "development": {
+      "title": "Pengembangan",
+      "description": "Kami membangun aplikasi Anda."
+    },
+    "launch": {
+      "title": "Peluncuran",
+      "description": "Proyek Anda resmi live."
+    }
+  },
+  "testimonials": {
+    "heading": "Testimoni Klien",
+    "john": {
+      "name": "John Smith",
+      "company": "Tech Startup",
+      "quote": "Tim yang luar biasa dengan eksekusi yang sangat baik."
+    },
+    "sarah": {
+      "name": "Sarah Lee",
+      "company": "Retail Brand",
+      "quote": "Hasil kerjanya melebihi ekspektasi kami."
+    },
+    "michael": {
+      "name": "Michael Tan",
+      "company": "Fintech Company",
+      "quote": "Profesional, responsif, dan sangat kompeten."
+    }
+  },
+  "cta": {
+    "heading": "Siap Membangun Sesuatu yang Luar Biasa?",
+    "description": "Mari diskusikan proyek Anda berikutnya dan ciptakan pengalaman digital yang disukai pelanggan Anda.",
+    "button": "Jadwalkan Konsultasi"
+  },
+  "footer": {
+    "tagline": "Solusi digital premium untuk bisnis modern.",
+    "rights": "Hak cipta dilindungi undang-undang."
+  },
+  "whatsapp": {
+    "label": "Chat dengan kami",
+    "defaultMessage": "Halo KOEsolutions, saya ingin tahu lebih lanjut tentang layanan Anda!"
+  },
+  "language": {
+    "en": "Inggris",
+    "id": "Indonesia"
+  },
+  "site": {
+    "title": "KOEsolutions",
+    "description": "Solusi digital premium untuk bisnis modern — pengembangan web, mobile, dan cloud."
+  }
+}
