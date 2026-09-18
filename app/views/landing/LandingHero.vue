@@ -26,7 +26,10 @@ const headingSizeClass = computed(() =>
             {{ t('hero.badge') }}
           </span>
 
-          <h1 class="mt-6 text-balance font-extrabold leading-tight" :class="headingSizeClass">
+          <h1
+            class="mt-6 text-balance font-extrabold leading-tight"
+            :class="headingSizeClass"
+          >
             {{ t('hero.titleLine1') }}
             <span class="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
               {{ t('hero.titleHighlight') }}

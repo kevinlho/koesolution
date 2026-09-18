@@ -6,7 +6,7 @@ export interface WhatsappOptions {
 }
 
 const DEFAULT_NUMBER = '+628129991699'
-const DEFAULT_MESSAGE = "Hello KOEsolutions, I'd like to know more about your services!"
+const DEFAULT_MESSAGE = 'Hello KOEsolutions, I\'d like to know more about your services!'
 
 /**
  * Vue composable for linking out to WhatsApp chat.

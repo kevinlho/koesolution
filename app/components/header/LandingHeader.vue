@@ -70,7 +70,7 @@ onUnmounted(() => {
               type="button"
               class="rounded-full px-3 py-1 transition"
               :class="locale === loc.code ? 'bg-indigo-600 text-white' : 'text-slate-600 hover:text-indigo-600'"
-              @click="setLocale(loc.code)"
+              @click="setLocale(loc.code as 'en' | 'id')"
             >
               {{ loc.label }}
             </button>
@@ -153,7 +153,7 @@ onUnmounted(() => {
                 type="button"
                 class="flex-1 rounded-full px-3 py-2 transition"
                 :class="locale === loc.code ? 'bg-indigo-600 text-white' : 'text-slate-600 hover:text-indigo-600'"
-                @click="setLocale(loc.code)"
+                @click="setLocale(loc.code as 'en' | 'id')"
               >
                 {{ loc.label }}
               </button>

@@ -72,7 +72,7 @@ watch(() => props.src, () => {
       ]"
       @load="onLoad"
       @error="onError"
-    />
+    >
 
     <div
       v-else

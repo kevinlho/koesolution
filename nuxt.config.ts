@@ -48,10 +48,6 @@ export default defineNuxtConfig({
     }
   },
 
-  image: {
-    provider: 'ipx'
-  },
-
   i18n: {
     locales: [
       { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
@@ -59,13 +55,14 @@ export default defineNuxtConfig({
     ],
     defaultLocale: 'en',
     strategy: 'no_prefix',
-    bundle: {
-      optimizeTranslationDirective: false
-    },
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'koe_locale',
       redirectOn: 'root'
     }
+  },
+
+  image: {
+    provider: 'ipx'
   }
 })
