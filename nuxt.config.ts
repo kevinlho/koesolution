@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   },
   // Static site generation
   app: {
-    baseURL: '/',
+    baseURL: '/koesolution/',
     buildAssetsDir: 'assets'
   },
 
