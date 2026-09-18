@@ -25,19 +25,19 @@
     "subheading": "End-to-end digital solutions from strategy to launch.",
     "web": {
       "title": "Web Development",
-      "description": "Modern websites and web applications."
+      "description": "Custom websites and web applications, built to be fast, reliable, and easy to maintain."
     },
     "mobile": {
-      "title": "Mobile Apps",
-      "description": "iOS and Android applications."
+      "title": "Android & iOS Development",
+      "description": "Native and cross-platform mobile apps for Android and iOS, from first release through ongoing updates."
     },
-    "uiux": {
-      "title": "UI/UX Design",
-      "description": "User-centered interface design."
+    "automate": {
+      "title": "Digitalize & Automate Business Process",
+      "description": "We turn manual, paper-based, or spreadsheet-heavy work into simple digital systems — so repetitive tasks run automatically, with fewer errors and less back-and-forth."
     },
-    "strategy": {
-      "title": "Digital Strategy",
-      "description": "Growth-focused digital solutions."
+    "ecommerce": {
+      "title": "E-commerce Platforms",
+      "description": "Online stores that make it easy for customers to browse, buy, and pay — with your products, orders, and payments all managed in one place."
     }
   },
   "stats": {

@@ -35,8 +35,8 @@ export const stats: StatMetric[] = [
 export const services: ServiceOffering[] = [
   { key: 'web', icon: icSoftware, titleKey: 'services.web.title', descriptionKey: 'services.web.description' },
   { key: 'mobile', icon: icAppSoftware, titleKey: 'services.mobile.title', descriptionKey: 'services.mobile.description' },
-  { key: 'uiux', icon: icUx, titleKey: 'services.uiux.title', descriptionKey: 'services.uiux.description' },
-  { key: 'strategy', icon: icAnalysis, titleKey: 'services.strategy.title', descriptionKey: 'services.strategy.description' }
+  { key: 'automate', icon: icAnalysis, titleKey: 'services.automate.title', descriptionKey: 'services.automate.description' },
+  { key: 'ecommerce', icon: icUx, titleKey: 'services.ecommerce.title', descriptionKey: 'services.ecommerce.description' }
 ]
 
 export const projects: PortfolioProject[] = [
