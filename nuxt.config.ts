@@ -26,7 +26,14 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-01-15',
   // Ensure the build output directory is configured correctly
   nitro: {
-    preset: 'github-pages'
+    preset: 'github-pages',
+    prerender: {
+      // The language switcher toggles locale via JS (setLocale), not an
+      // <a href>, so Nitro's link-crawler never discovers /en on its own.
+      // List both locale routes explicitly so both get static HTML.
+      routes: ['/', '/en'],
+      crawlLinks: true
+    }
   },
 
   vite: {
@@ -50,11 +57,17 @@ export default defineNuxtConfig({
 
   i18n: {
     locales: [
-      { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
-      { code: 'id', language: 'id-ID', name: 'Bahasa Indonesia', file: 'id.json' }
+      { code: 'id', language: 'id-ID', name: 'Bahasa Indonesia', file: 'id.json' },
+      { code: 'en', language: 'en-US', name: 'English', file: 'en.json' }
     ],
-    defaultLocale: 'en',
-    strategy: 'no_prefix',
+    // Indonesian is the default (unprefixed) locale since it's the primary
+    // market we target for SEO ("jasa website", "bikin website", "jasa IT").
+    // English lives at /en/ so both locales get their own crawlable,
+    // indexable URL instead of sharing a single no_prefix URL.
+    defaultLocale: 'id',
+    strategy: 'prefix_except_default',
+    // Used by useLocaleHead() to build absolute canonical/hreflang URLs.
+    baseUrl: 'https://kevinlho.github.io',
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'koe_locale',

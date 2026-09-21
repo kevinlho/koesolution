@@ -11,11 +11,11 @@
     }
   },
   "hero": {
-    "badge": "Agensi Digital & Software House",
+    "badge": "Jasa Website & Aplikasi Terpercaya",
     "titleLine1": "Kami Membangun",
     "titleHighlight": "Produk Digital",
     "titleLine2": "yang Mendorong Pertumbuhan",
-    "description": "Percepat pertumbuhan bisnis Anda dengan solusi IT profesional, dikembangkan oleh developer berpengalaman lebih dari 8 tahun di industri ini.",
+    "description": "Jasa website dan jasa IT profesional untuk mempercepat pertumbuhan bisnis Anda — dikembangkan oleh developer berpengalaman lebih dari 8 tahun di industri ini.",
     "ctaPrimary": "Konsultasi Gratis",
     "ctaSecondary": "Lihat Portofolio",
     "imageAlt": "Dasbor aplikasi"
@@ -25,19 +25,19 @@
     "subheading": "Solusi digital menyeluruh, dari strategi hingga peluncuran.",
     "web": {
       "title": "Pengembangan Web",
-      "description": "Website dan aplikasi web yang dibuat khusus, cepat, andal, dan mudah dikelola."
+      "description": "Jasa pembuatan website dan aplikasi web khusus untuk bisnis Anda — cepat, andal, dan mudah dikelola."
     },
     "mobile": {
       "title": "Pengembangan Aplikasi Android & iOS",
-      "description": "Aplikasi mobile native maupun cross-platform untuk Android dan iOS, mulai dari perilisan pertama hingga pembaruan berkelanjutan."
+      "description": "Jasa pembuatan aplikasi Android & iOS, native maupun cross-platform, dari perilisan pertama hingga pembaruan berkelanjutan."
     },
     "automate": {
       "title": "Digitalisasi & Otomatisasi Proses Bisnis",
-      "description": "Kami mengubah proses kerja yang masih manual, berbasis kertas, atau bergantung pada spreadsheet menjadi sistem digital sederhana — sehingga pekerjaan yang berulang berjalan otomatis, lebih minim kesalahan, dan lebih sedikit bolak-balik."
+      "description": "Jasa IT kami mengubah proses kerja yang masih manual, berbasis kertas, atau bergantung pada spreadsheet menjadi sistem digital sederhana — sehingga pekerjaan yang berulang berjalan otomatis, lebih minim kesalahan, dan lebih sedikit bolak-balik."
     },
     "ecommerce": {
       "title": "Solusi E-commerce",
-      "description": "Toko online yang memudahkan pelanggan untuk melihat produk, membeli, dan membayar — dengan produk, pesanan, dan pembayaran yang terkelola dalam satu sistem."
+      "description": "Jasa pembuatan platform e-commerce dan toko online yang memudahkan pelanggan untuk melihat produk, membeli, dan membayar — dengan produk, pesanan, dan pembayaran yang terkelola dalam satu sistem."
     }
   },
   "stats": {
@@ -130,7 +130,7 @@
     "button": "Jadwalkan Konsultasi"
   },
   "footer": {
-    "tagline": "Solusi digital premium untuk bisnis modern.",
+    "tagline": "Jasa website, aplikasi, dan IT profesional untuk bisnis modern di Indonesia.",
     "rights": "Hak cipta dilindungi undang-undang."
   },
   "whatsapp": {
@@ -142,7 +142,7 @@
     "id": "Indonesia"
   },
   "site": {
-    "title": "KOEsolutions",
-    "description": "Solusi digital premium untuk bisnis modern — pengembangan web, mobile, dan cloud."
+    "title": "Jasa Website, Aplikasi & IT Profesional | KOEsolutions",
+    "description": "KOEsolutions adalah jasa website dan jasa IT profesional: bikin website perusahaan, jasa pembuatan aplikasi Android & iOS, digitalisasi dan otomatisasi proses bisnis, hingga platform e-commerce. Konsultasi gratis."
   }
 }
