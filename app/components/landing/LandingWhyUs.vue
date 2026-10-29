@@ -3,6 +3,7 @@ import { useSiteContent } from '~/composables/useSiteContent'
 
 const { t } = useI18n()
 const { valueProps } = useSiteContent()
+const { openWhatsapp } = useWhatsapp()
 </script>
 
 <template>
@@ -39,14 +40,10 @@ const { valueProps } = useSiteContent()
           <div class="mt-14 flex flex-col gap-5 sm:flex-row">
             <button
               class="rounded-full bg-gradient-to-r from-indigo-700 to-indigo-500 px-10 py-5 text-lg font-semibold text-white transition duration-300 hover:scale-[1.02]"
+              type="button"
+              @click="openWhatsapp(t('whatsapp.defaultMessage'))"
             >
               {{ t('why.ctaPrimary') }}
-            </button>
-
-            <button
-              class="rounded-full border border-slate-200 bg-white px-10 py-5 text-lg font-semibold text-[#17174F] transition duration-300 hover:border-indigo-300 hover:bg-indigo-50"
-            >
-              {{ t('why.ctaSecondary') }}
             </button>
           </div>
         </div>

@@ -1,7 +1,7 @@
 {
   "header": {
     "logoPrefix": "KOE",
-    "logoSuffix": "SOLUTIONS",
+    "logoSuffix": "BYTE",
     "cta": "Mulai Sekarang",
     "nav": {
       "services": "Layanan",
@@ -62,7 +62,7 @@
     }
   },
   "why": {
-    "eyebrow": "MENGAPA SEE KOESOLUTIONS",
+    "eyebrow": "MENGAPA SEE KOEBYTE",
     "titleLine1": "Keunggulan digital yang terbukti",
     "titleConnector": "dan menghasilkan",
     "titleHighlight": "hasil nyata",
@@ -127,7 +127,7 @@
   "cta": {
     "heading": "Siap Membangun Sesuatu yang Luar Biasa?",
     "description": "Mari diskusikan proyek Anda berikutnya dan ciptakan pengalaman digital yang disukai pelanggan Anda.",
-    "button": "Jadwalkan Konsultasi"
+    "button": "Mulai Konsultasi"
   },
   "footer": {
     "tagline": "Jasa website, aplikasi, dan IT profesional untuk bisnis modern di Indonesia.",
@@ -135,14 +135,14 @@
   },
   "whatsapp": {
     "label": "Chat dengan kami",
-    "defaultMessage": "Halo KOEsolutions, saya ingin tahu lebih lanjut tentang layanan Anda!"
+    "defaultMessage": "Halo Koebyte, saya ingin tahu lebih lanjut tentang layanan Anda!"
   },
   "language": {
     "en": "Inggris",
     "id": "Indonesia"
   },
   "site": {
-    "title": "Jasa Website, Aplikasi & IT Profesional | KOEsolutions",
-    "description": "KOEsolutions adalah jasa website dan jasa IT profesional: bikin website perusahaan, jasa pembuatan aplikasi Android & iOS, digitalisasi dan otomatisasi proses bisnis, hingga platform e-commerce. Konsultasi gratis."
+    "title": "Jasa Website, Aplikasi & IT Profesional | Koebyte",
+    "description": "Koebyte adalah jasa website dan jasa IT profesional: bikin website perusahaan, jasa pembuatan aplikasi Android & iOS, digitalisasi dan otomatisasi proses bisnis, hingga platform e-commerce. Konsultasi gratis."
   }
 }

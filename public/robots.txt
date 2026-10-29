@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kevinlho.github.io/koesolution/sitemap.xml
+Sitemap: https://kevinlho.github.io/koebyte/sitemap.xml

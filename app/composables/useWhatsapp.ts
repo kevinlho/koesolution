@@ -1,12 +1,12 @@
 export interface WhatsappOptions {
-  /** Destination phone number, with country code (e.g. "+628129991699"). */
+  /** Destination phone number, with country code (e.g. "+628123456789"). */
   number?: string
   /** Default pre-filled message used when openWhatsapp() is called with no argument. */
   message?: string
 }
 
-const DEFAULT_NUMBER = '+628129991699'
-const DEFAULT_MESSAGE = 'Hello KOEsolutions, I\'d like to know more about your services!'
+const DEFAULT_NUMBER = '+62815811699'
+const DEFAULT_MESSAGE = 'Halo Koebyte! Saya mau konsultasi mengenai sistem IT!'
 
 /**
  * Vue composable for linking out to WhatsApp chat.

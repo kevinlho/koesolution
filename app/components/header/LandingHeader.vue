@@ -31,6 +31,14 @@ onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
   document.body.style.overflow = ''
 })
+const { openWhatsapp } = useWhatsapp()
+
+// Scroll to an in-page section without writing the #hash into the URL,
+// so a refresh or language switch doesn't jump back to that section.
+const scrollToSection = (link: string) => {
+  mobileMenuOpen.value = false
+  document.getElementById(link.replace('#', ''))?.scrollIntoView({ behavior: 'smooth' })
+}
 </script>
 
 <template>
@@ -45,9 +53,18 @@ onUnmounted(() => {
     >
       <div class="flex items-center justify-between px-5 py-4 sm:px-8">
         <!-- Logo -->
-        <div class="text-xl font-bold">
-          <span class="text-indigo-600">{{ t('header.logoPrefix') }}</span>{{ t('header.logoSuffix') }}
-        </div>
+        <NuxtLink
+          to="/"
+          class="flex items-center"
+        >
+          <img
+            :src="`${useRuntimeConfig().app.baseURL}image/icon/ic_logo_koebyte.png`"
+            alt="Koebyte logo"
+            width="300"
+            height="100"
+            class="h-10 w-auto"
+          >
+        </NuxtLink>
 
         <!-- Desktop Navigation -->
         <nav class="hidden items-center gap-8 md:flex">
@@ -56,6 +73,7 @@ onUnmounted(() => {
             :key="nav.key"
             :href="nav.link"
             class="font-medium text-slate-700 transition hover:text-indigo-600"
+            @click.prevent="scrollToSection(nav.link)"
           >
             {{ nav.label }}
           </a>
@@ -76,7 +94,11 @@ onUnmounted(() => {
             </button>
           </div>
 
-          <button class="rounded-xl bg-indigo-600 px-5 py-2 text-white transition hover:bg-indigo-700">
+          <button
+            class="rounded-xl bg-indigo-600 px-5 py-2 text-white transition hover:bg-indigo-700"
+            type="button"
+            @click="openWhatsapp(t('whatsapp.defaultMessage'))"
+          >
             {{ t('header.cta') }}
           </button>
         </div>
@@ -141,7 +163,7 @@ onUnmounted(() => {
               :key="nav.key"
               :href="nav.link"
               class="rounded-xl px-4 py-3 transition hover:bg-slate-100"
-              @click="mobileMenuOpen = false"
+              @click.prevent="scrollToSection(nav.link)"
             >
               {{ nav.label }}
             </a>
@@ -159,7 +181,11 @@ onUnmounted(() => {
               </button>
             </div>
 
-            <button class="mt-4 rounded-xl bg-indigo-600 px-5 py-3 text-white transition hover:bg-indigo-700">
+            <button
+              class="mt-4 rounded-xl bg-indigo-600 px-5 py-3 text-white transition hover:bg-indigo-700"
+              type="button"
+              @click="openWhatsapp(t('whatsapp.defaultMessage'))"
+            >
               {{ t('header.cta') }}
             </button>
           </nav>

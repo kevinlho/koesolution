@@ -13,6 +13,7 @@ const headingSizeClass = computed(() =>
     ? 'text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl'
     : 'text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl'
 )
+const { openWhatsapp } = useWhatsapp()
 </script>
 
 <template>
@@ -42,12 +43,12 @@ const headingSizeClass = computed(() =>
           </p>
 
           <div class="mt-8 flex flex-wrap justify-center gap-4 lg:mt-12 lg:justify-start">
-            <button class="rounded-xl bg-indigo-600 px-6 py-3 text-sm font-medium text-white hover:bg-indigo-700 sm:px-8 sm:py-4 sm:text-base">
+            <button
+              class="rounded-xl bg-indigo-600 px-6 py-3 text-sm font-medium text-white hover:bg-indigo-700 sm:px-8 sm:py-4 sm:text-base"
+              type="button"
+              @click="openWhatsapp(t('whatsapp.defaultMessage'))"
+            >
               {{ t('hero.ctaPrimary') }}
-            </button>
-
-            <button class="rounded-xl border border-slate-300 px-6 py-3 text-sm font-medium hover:bg-slate-50 sm:px-8 sm:py-4 sm:text-base">
-              {{ t('hero.ctaSecondary') }}
             </button>
           </div>
         </div>

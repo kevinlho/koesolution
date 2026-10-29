@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { t } = useI18n()
+const { openWhatsapp } = useWhatsapp()
 </script>
 
 <template>
@@ -21,7 +22,11 @@ const { t } = useI18n()
         {{ t('cta.description') }}
       </p>
 
-      <button class="mt-10 rounded-xl bg-white px-8 py-4 font-semibold text-indigo-600 transition duration-300 hover:scale-105">
+      <button
+        class="mt-10 rounded-xl bg-white px-8 py-4 font-semibold text-indigo-600 transition duration-300 hover:scale-105"
+        type="button"
+        @click="openWhatsapp(t('whatsapp.defaultMessage'))"
+      >
         {{ t('cta.button') }}
       </button>
     </div>

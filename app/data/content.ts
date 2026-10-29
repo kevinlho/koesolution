@@ -20,7 +20,7 @@ import type {
 
 export const navigation: NavLink[] = [
   { key: 'services', link: '#services', labelKey: 'header.nav.services' },
-  { key: 'portfolio', link: '#portfolio', labelKey: 'header.nav.portfolio' },
+  // { key: 'portfolio', link: '#portfolio', labelKey: 'header.nav.portfolio' },
   { key: 'about', link: '#about', labelKey: 'header.nav.about' },
   { key: 'contact', link: '#contact', labelKey: 'header.nav.contact' }
 ]

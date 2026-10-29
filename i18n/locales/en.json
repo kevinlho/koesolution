@@ -1,7 +1,7 @@
 {
   "header": {
     "logoPrefix": "KOE",
-    "logoSuffix": "SOLUTIONS",
+    "logoSuffix": "BYTE",
     "cta": "Get Started",
     "nav": {
       "services": "Services",
@@ -62,7 +62,7 @@
     }
   },
   "why": {
-    "eyebrow": "WHY SEE KOESOLUTIONS",
+    "eyebrow": "WHY SEE KOEBYTE",
     "titleLine1": "Proven digital excellence",
     "titleConnector": "that drives",
     "titleHighlight": "results",
@@ -127,7 +127,7 @@
   "cta": {
     "heading": "Ready To Build Something Amazing?",
     "description": "Let's discuss your next project and create a digital experience your customers will love.",
-    "button": "Schedule Consultation"
+    "button": "Start Consultation"
   },
   "footer": {
     "tagline": "Web, mobile app, and IT development services for modern businesses.",
@@ -135,14 +135,14 @@
   },
   "whatsapp": {
     "label": "Chat with us",
-    "defaultMessage": "Hello KOEsolutions, I'd like to know more about your services!"
+    "defaultMessage": "Hello Koebyte, I'd like to know more about your services!"
   },
   "language": {
     "en": "English",
     "id": "Indonesian"
   },
   "site": {
-    "title": "Web, Mobile App & IT Development Services | KOEsolutions",
-    "description": "KOEsolutions builds websites, mobile apps, and IT automation solutions for growing businesses — custom web development, Android & iOS apps, business process automation, and e-commerce platforms."
+    "title": "Web, Mobile App & IT Development Services | Koebyte",
+    "description": "Koebyte builds websites, mobile apps, and IT automation solutions for growing businesses — custom web development, Android & iOS apps, business process automation, and e-commerce platforms."
   }
 }

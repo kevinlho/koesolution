@@ -12,7 +12,7 @@ const i18nHead = useLocaleHead({
 })
 
 const SITE_ORIGIN = 'https://kevinlho.github.io'
-const SITE_PATH = '/koesolution'
+const SITE_PATH = '/koebyte'
 const SITE_URL = `${SITE_ORIGIN}${SITE_PATH}`
 const OG_IMAGE = `${SITE_ORIGIN}${SITE_PATH}/image/icon/ic_logo.png`
 
@@ -33,7 +33,7 @@ useHead(() => ({
 useSeoMeta({
   title: () => t('site.title'),
   description: () => t('site.description'),
-  ogSiteName: 'KOEsolutions',
+  ogSiteName: 'Koebyte',
   ogType: 'website',
   ogUrl: () => (locale.value === 'en' ? `${SITE_URL}/en` : SITE_URL),
   ogTitle: () => t('site.title'),
@@ -45,7 +45,7 @@ useSeoMeta({
   twitterImage: OG_IMAGE
 })
 
-// Structured data (schema.org) so search engines can understand KOEsolutions
+// Structured data (schema.org) so search engines can understand Koebyte
 // as a business entity — name, services offered, and contact point — rather
 // than just parsing loose page text. This is what powers rich results for
 // "jasa website", "bikin website", "jasa IT" style local/service searches.
@@ -56,7 +56,7 @@ useHead({
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'ProfessionalService',
-        'name': 'KOEsolutions',
+        'name': 'Koebyte',
         'url': `${SITE_URL}/`,
         'image': OG_IMAGE,
         'logo': OG_IMAGE,
